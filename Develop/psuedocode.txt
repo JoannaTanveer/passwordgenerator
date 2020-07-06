@@ -1,0 +1,20 @@
+Variables: 
+Prompt var minChar = What is the minimum number of characters
+prompt var maxChar = What is the maximum number of characters (not to exceed 128)
+prompt var specialChar= Should we include special characters? yes/not
+prompt var lowerChar = Should we include lowercase characters? yes/not
+prompt var upperChar = Should we include uppercase characters?
+
+
+Events:
+user enters minimum number then we store the # in the Variables
+user enters maximum number then we store the # in the Variables
+User enters boolean for special character, lowercase and uppercase
+---
+Function must return value to user in a textArea or with an alert
+
+Function:
+Function takes all variables and passes them into function {
+    Crypto.getRandomValues() 
+    I need to use An integer-based TypedArray, that is an Int8Array, a Uint8Array, an Int16Array, a Uint16Array, an Int32Array, or a Uint32Array.
+}
