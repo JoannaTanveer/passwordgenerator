@@ -9,12 +9,12 @@ prompt var upperChar = Should we include uppercase characters?
 Events:
 user enters minimum number then we store the # in the Variables
 user enters maximum number then we store the # in the Variables
-User enters boolean for special character, lowercase and uppercase
+User enters boolean for special character, lowercase and uppercase- These will all be stored in a variable, [array?]
 ---
 Function must return value to user in a textArea or with an alert
 
 Function:
 Function takes all variables and passes them into function {
-    Crypto.getRandomValues() 
+    Crypto.getRandomValues()    (I learned later this is a terrible idea, and use regular math.random instead)
     I need to use An integer-based TypedArray, that is an Int8Array, a Uint8Array, an Int16Array, a Uint16Array, an Int32Array, or a Uint32Array.
 }

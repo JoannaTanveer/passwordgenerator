@@ -3,16 +3,16 @@ var generateBtn = document.querySelector("#generate");
 
 
 function writePassword() {
-  var charValue = prompt("How many characters?");
+  var charValue = prompt("How many characters long would you like your password to be?");
   //Verification to see if user has input a number between 8-128//
   if(charValue<8 || charValue>128) {
     return writePassword();
   }
   // Questions to request specifications from user//
-  var number = confirm('numbers?');
-  var specChar = confirm('Special Characters');
-  var lowerCase = confirm('lower case letters');
-  var upperCase = confirm('upper case letters');
+  var number = confirm('Would you like to include numbers?');
+  var specChar = confirm('Would you like to include special characters?');
+  var lowerCase = confirm('Would you like to include lower case a-z?');
+  var upperCase = confirm('Would you like to include upper case A-Z?');
 
   //Arrays of character sets
   var numberArray = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
