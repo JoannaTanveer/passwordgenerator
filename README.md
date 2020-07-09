@@ -4,3 +4,4 @@ This is a simple application that generates a random password. The user is able 
 
 ![screenshot](/assets/screenshot_password.png)
 
+[Link to project](https://joannatanveer.github.io/passwordgenerator/)
